@@ -1,7 +1,7 @@
 @media screen and (min-width: 428px) {
-  .container {
+  /* .container {
     max-width: 396px;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -47,6 +47,12 @@
   .customers-item-icon{
     width: calc((100% - 72px) / 3);
   }
+
+    /* ----------FOOTER---------- */
+
+    .container-footer{
+      display: flex;
+    }
 }
 
 @media screen and (min-width: 1158px) {
