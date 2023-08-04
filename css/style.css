@@ -57,9 +57,9 @@ body {
   text-decoration: none;
 }
 
-.active-menu-link {
+/* .active-menu-link {
   color: var(--iris);
-}
+} */
 
 .list {
   list-style-type: none;
