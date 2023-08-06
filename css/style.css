@@ -35,7 +35,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 100%;
+  /* width: 100%; */
 }
 
 body {
@@ -403,6 +403,10 @@ body {
 
 /* ----------TEAM---------- */
 
+.team-item .container {
+  max-width: 264px;
+}
+
 .team {
   background-color: #f4f4fd;
   /* padding: 120px 0; */
@@ -424,10 +428,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  max-width: 264px;
+  margin: 0 auto;
 }
 
 .team-item {
-  width: 100%;
+  /* width: 100%; */
   background-color: #ffffff;
   /* width:calc((100% - 72px) / 4); */
   border-radius: 0px 0px 4px 4px;
@@ -437,7 +443,7 @@ body {
 
 .team-img {
   margin: 0 auto;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .team-name-job {
@@ -498,6 +504,10 @@ body {
 .customers {
   /* padding: 120px 0; */
   padding: 96px 0;
+}
+
+.customers .container {
+  max-width: 396px;
 }
 
 .customers-title {

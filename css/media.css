@@ -1,12 +1,18 @@
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
 @media screen and (min-width: 428px) {
-  /* .container {
-    max-width: 396px;
-  } */
+  .container {
+    max-width: 428px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
 
   /* ----------HEADER---------- */
@@ -86,6 +92,10 @@
 
   /* ----------HERO---------- */
 
+  .hero .container {
+    max-width: 768px;
+  }
+
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -118,6 +128,10 @@
   }
   /* ----------STRATEGY---------- */
 
+  .strategy .container {
+    max-width: 736px;
+  }
+
   .strategy-list {
     gap: 72px 24px;
   }
@@ -132,12 +146,17 @@
 
   /* ----------TEAM---------- */
 
+  .team .container {
+    max-width: 552px;
+  }
+
   .team {
     padding: 96px 108px;
   }
 
   .team-list {
     gap: 64px 24px;
+    max-width: 768px;
   }
 
   .team-item {
@@ -145,6 +164,10 @@
   }
 
   /* ----------Customers---------- */
+
+  .customers .container {
+    max-width: 552px;
+  }
 
   .customers-list {
     gap: 72px 24px;
@@ -207,10 +230,6 @@
     max-width: 1440px;
   }
 
-  .container {
-    padding: 0 156px;
-  }
-
   /* ----------HEADER---------- */
 
   .header-container {
@@ -239,6 +258,10 @@
       url(../images/people-office-1.jpg);
   }
 
+  .hero .container {
+    max-width: 1440px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -263,6 +286,10 @@
 
   .strategy {
     padding: 120px 0;
+  }
+
+  .strategy .container {
+    max-width: 1440px;
   }
 
   .strategy-list {
@@ -336,7 +363,19 @@
     width: calc((100% - 72px) / 4);
   }
 
+  .team .container {
+    max-width: 1440px;
+  }
+
+  .team-list {
+    max-width: 1440px;
+  }
+
   /* ----------Customers---------- */
+
+  .customers .container {
+    max-width: 1440px;
+  }
 
   .customers-list {
     gap: 24px;
