@@ -2,6 +2,34 @@
   .container {
     max-width: 320px;
   }
+
+  .hero-title {
+    font-size: 25px;
+  }
+
+  .team {
+    padding: 40px 0;
+  }
+
+  .team-title {
+    margin-bottom: 40px;
+  }
+
+  .team-list {
+    gap: 40px;
+  }
+
+  .footer-social-text {
+    font-size: 13px;
+  }
+
+  .social-media-container {
+    margin: 56px 40px;
+  }
+
+  .modal-window {
+    width: 320px;
+  }
 }
 
 @media screen and (min-width: 428px) {
