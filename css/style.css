@@ -148,6 +148,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.mob-menu.is-open {
+  transform: translateX(0);
 }
 
 .mob-close-btn {
@@ -188,7 +194,7 @@ body {
 }
 
 .mob-menu-list {
-  margin-bottom: 284px;
+  /* margin-bottom: 50px; */
 }
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
@@ -222,6 +228,9 @@ body {
 .mob-menu-link:hover,
 .mob-menu-link:focus {
   color: #404bbf;
+}
+
+.mob-address-social {
 }
 
 .mob-address {

@@ -67,7 +67,7 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu is-hidden" data-menu>
+      <div class="mob-menu" data-menu>
         <div>
           <button type="button" class="mob-close-btn" data-menu-close>
             <svg class="mob-window-icon" width="8" height="8">
@@ -90,50 +90,52 @@
             </li>
           </ul>
         </div>
-        <address class="mob-address">
-          <ul class="mob-contact list">
-            <li class="mob-contact-item">
-              <a href="tel:+110001111111" class="mob-tel-link link"
-                >+11 (000) 111-11-11</a
-              >
+        <div class="mob-address-social">
+          <address class="mob-address">
+            <ul class="mob-contact list">
+              <li class="mob-contact-item">
+                <a href="tel:+110001111111" class="mob-tel-link link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-contact-item">
+                <a href="mailto:info@devstudio.com" class="mob-email-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-socials-list list">
+            <li class="mob-socials-icon">
+              <a href="" class="mob-socials-link link">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
             </li>
-            <li class="mob-contact-item">
-              <a href="mailto:info@devstudio.com" class="mob-email-link link"
-                >info@devstudio.com</a
-              >
+            <li class="mob-socials-icon">
+              <a href="" class="mob-socials-link link">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-icon">
+              <a href="" class="mob-socials-link link">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-icon">
+              <a href="" class="mob-socials-link link">
+                <svg class="mob-icons" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="mob-socials-list list">
-          <li class="mob-socials-icon">
-            <a href="" class="mob-socials-link link">
-              <svg class="mob-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-socials-icon">
-            <a href="" class="mob-socials-link link">
-              <svg class="mob-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-socials-icon">
-            <a href="" class="mob-socials-link link">
-              <svg class="mob-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-socials-icon">
-            <a href="" class="mob-socials-link link">
-              <svg class="mob-icons" width="16" height="16">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -625,6 +627,12 @@
         </form>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
