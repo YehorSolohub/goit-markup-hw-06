@@ -194,7 +194,7 @@ body {
 }
 
 .mob-menu-list {
-  /* margin-bottom: 50px; */
+  margin-bottom: 50px;
 }
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;

@@ -34,11 +34,22 @@
   .mob-tel-link {
     font-size: 25px;
   }
+
+  .mob-socials-list {
+    gap: 31px;
+  }
 }
 
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
+  }
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .mob-socials-list {
+    gap: 56px;
   }
 }
 
