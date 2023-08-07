@@ -134,9 +134,9 @@
   }
   /* ----------STRATEGY---------- */
 
-  .strategy .container {
+  /* .strategy .container {
     max-width: 736px;
-  }
+  } */
 
   .strategy-list {
     gap: 72px 24px;
@@ -170,6 +170,10 @@
   }
 
   /* ----------Customers---------- */
+
+  .customers {
+    padding: 96px 92px;
+  }
 
   .customers .container {
     max-width: 552px;
