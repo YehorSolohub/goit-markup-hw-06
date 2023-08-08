@@ -214,7 +214,7 @@ body {
   color: #404bbf;
 }
 
-.active-menu-link.mob-menu-link:after {
+/* .active-menu-link.mob-menu-link:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -223,7 +223,7 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-}
+} */
 
 .mob-menu-link:hover,
 .mob-menu-link:focus {

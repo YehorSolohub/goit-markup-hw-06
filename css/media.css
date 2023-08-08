@@ -3,6 +3,10 @@
     max-width: 320px;
   }
 
+  /* .header-container .container {
+    max-width: 428px;
+  } */
+
   .hero-title {
     font-size: 25px;
   }
@@ -48,6 +52,27 @@
     font-size: 36px;
   }
 
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tablet-opt.jpg);
+    max-width: 768px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tablet-2x-opt.jpg);
+    }
+  }
+
   .mob-socials-list {
     gap: 56px;
   }
@@ -56,6 +81,32 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  .hero {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-1.jpg);
+    max-width: 1158px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x-opt.jpg);
+    }
   }
 
   /* ----------HEADER---------- */
@@ -144,27 +195,6 @@
     max-width: 768px;
   }
 
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tablet-opt.jpg);
-    max-width: 768px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/Dark-bg-tablet-2x-opt.jpg);
-    }
-  }
-
   .modal-window {
     width: 408px;
   }
@@ -181,9 +211,9 @@
   }
   /* ----------STRATEGY---------- */
 
-  /* .strategy .container {
-    max-width: 736px;
-  } */
+  .strategy .container {
+    max-width: 768px;
+  }
 
   .strategy-list {
     gap: 72px 24px;
@@ -200,11 +230,11 @@
   /* ----------TEAM---------- */
 
   .team .container {
-    max-width: 552px;
+    max-width: 584px;
   }
 
   .team {
-    padding: 96px 108px;
+    padding: 96px 0;
   }
 
   .team-list {
@@ -219,11 +249,11 @@
   /* ----------Customers---------- */
 
   .customers {
-    padding: 96px 92px;
+    padding: 96px 0;
   }
 
   .customers .container {
-    max-width: 552px;
+    max-width: 584px;
   }
 
   .customers-list {
@@ -237,7 +267,11 @@
   /* ----------FOOTER---------- */
 
   .footer {
-    padding: 96px 92px;
+    padding: 96px 0;
+  }
+
+  .footer .container {
+    max-width: 584px;
   }
 
   .container-footer {
@@ -284,7 +318,7 @@
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1160px;
   }
 
   /* ----------HEADER---------- */
@@ -306,30 +340,8 @@
 
   /* ----------HERO---------- */
 
-  .hero {
-    padding: 188px 0;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-1.jpg);
-    max-width: 1440px;
-  }
-
   .hero .container {
-    max-width: 1440px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/people-office-2x-opt.jpg);
-    }
+    max-width: 1158px;
   }
 
   .container-hero {
@@ -347,7 +359,7 @@
   }
 
   .strategy .container {
-    max-width: 1440px;
+    max-width: 1158px;
   }
 
   .strategy-list {
@@ -427,11 +439,11 @@
   }
 
   .team .container {
-    max-width: 1440px;
+    max-width: 1158px;
   }
 
   .team-list {
-    max-width: 1440px;
+    max-width: 1158px;
     width: 1128px;
     margin: 0 auto;
   }
@@ -439,7 +451,7 @@
   /* ----------Customers---------- */
 
   .customers .container {
-    max-width: 1440px;
+    max-width: 1158px;
   }
 
   .customers-list {
